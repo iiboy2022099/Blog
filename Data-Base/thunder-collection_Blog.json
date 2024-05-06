@@ -1,0 +1,53 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Blog",
+    "collectionId": "17fbdba1-c234-4f37-b82b-dc4ee47e2c6b",
+    "dateExported": "2024-05-06T17:35:25.653Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "75209e7e-a8a6-46fb-8595-a932a338defc",
+            "name": "Users",
+            "containerId": "",
+            "created": "2024-05-06T17:00:20.177Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "b6352fd7-efde-4c7d-9b6c-c8f3873aacb0",
+            "colId": "17fbdba1-c234-4f37-b82b-dc4ee47e2c6b",
+            "containerId": "75209e7e-a8a6-46fb-8595-a932a338defc",
+            "name": "register",
+            "url": "http://localhost:3000/blog/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-06T17:00:31.025Z",
+            "modified": "2024-05-06T17:08:06.733Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"Ignacio J Iboy\",\n  \"email\":\"iiboy-2022099@kinal.edu.gt\",\n  \"password\": \"123456\"\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0d994f4d-81ce-476b-80a1-60a47bc0c1b8",
+            "colId": "17fbdba1-c234-4f37-b82b-dc4ee47e2c6b",
+            "containerId": "75209e7e-a8a6-46fb-8595-a932a338defc",
+            "name": "login",
+            "url": "http://localhost:3000/blog/v1/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-06T17:25:35.823Z",
+            "modified": "2024-05-06T17:26:18.249Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"iiboy-2022099@kinal.edu.gt\",\n  \"password\": \"123456\" \n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "2_XGhgycmrdvUIN90pOn_QDoE-dLiA2wpNgw8WXaHTV_AfBKti2aFDCq7uoHmJJdFo0nVCVPkFxbx8o8njh19Q"
+}
