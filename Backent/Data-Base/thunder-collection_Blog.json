@@ -1,0 +1,120 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Blog",
+    "collectionId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+    "dateExported": "2024-05-15T04:57:01.733Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0e44d214-c915-4e33-a547-8d7762339ab4",
+            "colId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/blog/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-15T04:09:10.280Z",
+            "modified": "2024-05-15T04:20:40.251Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"ignacioiboy2706@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "af6e7b2d-3859-4b83-928d-62221a7c129f",
+            "colId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/blog/v1/auth/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-15T04:09:17.062Z",
+            "modified": "2024-05-15T04:13:53.440Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"ignacioiboy2706@gmail.com\",\n  \"username\":\"Ignacio Iboy\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "36779d06-e5cb-4a55-9054-d555d779d29d",
+            "colId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+            "containerId": "",
+            "name": "postPublication",
+            "url": "http://localhost:3000/blog/v1/publicacion/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-15T04:09:27.518Z",
+            "modified": "2024-05-15T04:30:49.265Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"titulo\":\"Hola mundo\",\n \"contenido\": \"Se realizara hola mundo para los amantes de la informática\",\n \"date\":\"2024-08-14\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1dde183c-3c5e-40b1-830f-b38569305796",
+            "colId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+            "containerId": "",
+            "name": "getPublication",
+            "url": "http://localhost:3000/blog/v1/publicacion/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-15T04:09:37.038Z",
+            "modified": "2024-05-15T04:26:10.633Z",
+            "headers": []
+        },
+        {
+            "_id": "b8633431-b968-47bf-961c-ba3ae7b913c1",
+            "colId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+            "containerId": "",
+            "name": "getPublicacionById",
+            "url": "http://localhost:3000/blog/v1/publicacion/66443a7af93584b0e89efb81",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-05-15T04:30:09.451Z",
+            "modified": "2024-05-15T04:30:58.993Z",
+            "headers": []
+        },
+        {
+            "_id": "5b1ae5a5-8b86-4e66-87fe-70da69bcd094",
+            "colId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+            "containerId": "",
+            "name": "comentarioPost",
+            "url": "http://localhost:3000/blog/v1/comentario/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-05-15T04:31:51.463Z",
+            "modified": "2024-05-15T04:34:19.207Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"contenido\":\"Creo que se puede mejorar\",\n  \"autor\":\"Pedro Torres\",\n  \"publicacionId\":\"66443a7af93584b0e89efb81\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "91330c83-7a3f-44d0-a027-acb3203fd8ea",
+            "colId": "3c23574c-2943-4cb2-86d3-b1ade0405033",
+            "containerId": "",
+            "name": "comentarioGetId",
+            "url": "http://localhost:3000/blog/v1/comentario/",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-05-15T04:35:09.816Z",
+            "modified": "2024-05-15T04:54:53.633Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "c3173mjAdxbUmssDMiC9iAIFzCvLBCUbEeV_IxouwVFDaUwgosBH7L083VCGzai2GrLnOFDTP1tRDpf0X0yObQ"
+}
